@@ -1,3 +1,13 @@
+@font-face {
+    font-family: font1;
+    src: url(ppneuemontreal-light.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(victorserif-30light\ \(1\).ttf);
+}
+
 *{
 margin:0; 
 padding:0; 
@@ -24,7 +34,7 @@ nav{
     justify-content: space-between;
 }
 nav h1{
-    font-family:"pp neue montreal" ;
+    font-family:"font1" ;
     font-size: 1.7vw;
     font-weight: 100;
 }
@@ -67,7 +77,7 @@ nav img{
 
 #page1 h1{
     font-size: 32.5vw;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
     font-weight: 100;
     cursor:none;
 }
@@ -113,7 +123,7 @@ nav img{
     display: flex;
     justify-content: space-between;
     padding: 0vw 2.4vw;
-    font-family: pp neue montreal;
+    font-family: font1;
     align-items: center;
 }
 #page1 #text h2,#page1 #text h3{
@@ -126,7 +136,7 @@ nav img{
     width: 100vw;
     height: 100vh;
     color: #fff;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,7 +150,7 @@ nav img{
     font-weight: 200;
 }
 #page2 h3{
-    font-family: pp neue montreal;
+    font-family:font1;
     position: absolute;
     top: 90%;
     left: 42%;
@@ -162,7 +172,7 @@ nav img{
     font-size: 7.8vw;
     line-height: 7.2vw;
     font-weight: 100;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
 }
 #page3 h1 span{
     display: inline-block;
@@ -173,7 +183,7 @@ nav img{
     align-items: center;
     /* justify-content: space-evenly; */
     margin-top: 4vw;
-    font-family: pp neue montreal;
+    font-family: font1;
 
 }
 #pg3 h2{
@@ -201,7 +211,7 @@ nav img{
     font-size: 11vw;
     text-align: center;
     font-weight: 100;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
     line-height: 11vw;
 }
 
@@ -278,7 +288,7 @@ nav img{
     font-size: 4vw;
     font-weight: 500;
     line-height: 5vw;
-    font-family: pp neue montreal;
+    font-family: font1;
     text-align: end;
 }
 #page5 h2 span{
@@ -305,12 +315,12 @@ nav img{
 }
 #page6 h2{
     font-size: 2.5vw;
-    font-family: pp neue montreal;
+    font-family: font1;
     font-weight: 500;
 }
 #page6 h3{
     font-size: 1.2vw;
-    font-family: pp neue montreal;
+    font-family: font1;
     font-weight: 500;
 }
 #one{
@@ -367,7 +377,7 @@ nav img{
 }
 #page7 h1{
     font-size: 7.8vw;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
     font-weight: 100;
     z-index: 9;
 }
@@ -387,7 +397,7 @@ nav img{
 
 #page7 h2{
     font-size: 1.9vw;
-    font-family: pp neue montreal;
+    font-family: font1;
     font-weight: 300;
 }
 #page7 img{
@@ -510,7 +520,7 @@ nav img{
     font-weight: 100;
     text-align: end;
     line-height: 8vw;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
 }
 #page8 #one{
     width: 53vh;
@@ -519,7 +529,7 @@ nav img{
     margin-left: 28vw;
     flex-direction: row;
     gap: 1.3vw;
-    font-family: pp neue montreal;
+    font-family: font1;
 }
 #page8 #one1{
     display: flex;
@@ -580,7 +590,7 @@ nav img{
 }
 #page9 h3{
     font-size: 2vw;
-    font-family: pp neue montreal;
+    font-family: font1;
     font-weight: 100;
     margin-top: 3vw;
 }
@@ -593,7 +603,7 @@ nav img{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    font-family: pp neue montreal;
+    font-family: font1;
     padding: 3vw 4vw;
 }
 #page10 #one{
@@ -625,7 +635,7 @@ nav img{
 #page10 #two h1{
     font-size: 18vw;
     font-weight: 100;
-    font-family: "Victor Serif 30 Light";
+    font-family: "font2";
 
 }
 
