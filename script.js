@@ -102,21 +102,13 @@ function page1Animation(){
 page1Animation();
 
 function page2Animation(){
-//  var page2para = document.querySelector("#page2 #text");
-// var page2Text = page2para.textContent;
-// var page2Splitted = page2Text.split("");
-// var clutter =""
-// page2Splitted.forEach(function(elem){
-// clutter += `<span>${elem}</span>`
-// console.log(elem)
-// })
-// page2para.innerHTML = clutter;
+
 
   var tl = gsap.timeline({
     scrollTrigger:{
         trigger:"#page2",
         scroller:"#main",
-        start:"top 31%",
+        start:"50% 100%",
         end:"top -100%",
         // markers:true,
      }
@@ -134,8 +126,9 @@ function page3Animation(){
     scrollTrigger:{
         trigger:"#page3",
         scroller:"#main",
-        start:"top 35%",
+        start:"10% 90%",
         end:"top -80%",
+        // markers:true
      }
   })
   tl.from("#page3 h1",{
@@ -153,10 +146,10 @@ function page4Animation(){
     scrollTrigger:{
       trigger:"#page4",
       scroller:"#main",
-      start:"top 13%",
+      start:"top 0%",
       end:"start -100%",
       scrub:2,
-      pin:true
+      pin:true,
     }
   })
   tl.to("#page4 #overlay",{
@@ -172,8 +165,7 @@ function page5Animation(){
     scrollTrigger:{
       trigger:"#page5",
       scroller:"#main",
-      // markers:true,
-      start:"top 47%",
+      start:"top 53%",
       end:"start -100%",
 
     }
@@ -451,8 +443,7 @@ function page9Animation(){
     scrollTrigger:{
       trigger:"#page9",
       scroller:"#main",
-      // markers:true,
-      start:"top 28%",
+      start:"top 33%",
       end:"start -100%",
 
     }
@@ -461,17 +452,19 @@ function page9Animation(){
     y:"5%",
     opacity:0,
     ease: "slow(0.7,0.7,false)",
-  })
+  },"a")
   tl.from("#page9 button",{
     y:"5%",
     opacity:0,
-    delay:0.7
-  })
+    delay:0.7,
+    ease: "slow(0.7,0.7,false)",
+  },"a")
   tl.from("#page9 h3",{
     y:"5%",
     opacity:0,
-    delay:0.6
-  })
+    delay:0.6,
+    ease: "slow(0.7,0.7,false)",
+  },"a")
 }
 page9Animation()
 
