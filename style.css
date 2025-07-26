@@ -26,7 +26,7 @@ nav{
     width: 100%;
     height: 11vh;
     background: transparent;
-    color: #fff;
+    color: rgb(32, 72, 32);
     padding: 1.3vw 2.4vw;
     position: fixed;
     z-index: 99;
@@ -39,7 +39,7 @@ nav h1{
     font-weight: 100;
 }
 nav img{
-    width: 4vw;
+    width: 6.5vw;
     height: 4vw;
 }
 #behindmouse{
@@ -49,13 +49,13 @@ nav img{
 }
 #main{
     overflow: hidden;
-    background: #0A0A0A;
+    background: white;
 }
 #page1{
     width: 100vw;
     height: 100vh;
-    background: #0A0A0A;
-    color: #fff;
+    /* background: #0A0A0A; */
+    color:rgb(32, 72, 32);
     position: relative;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ nav img{
     display: flex;
     align-items: center;
     gap: 3.1vw;
-    color: #fff;
+    color: rgb(32, 72, 32);
 }
 
 #page1 h1{
@@ -135,7 +135,7 @@ nav img{
 #page2{
     width: 100vw;
     height: 100vh;
-    color: #fff;
+    color: rgb(32, 72, 32);
     font-family: "font2";
     display: flex;
     align-items: center;
@@ -163,7 +163,7 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    color: rgb(32, 72, 32);
     justify-content: space-evenly;
     padding: 10vw 10vw;
     padding-left: 34vw;
@@ -176,7 +176,7 @@ nav img{
 }
 #page3 h1 span{
     display: inline-block;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid rgb(32, 72, 32);
 }
 #pg3{
     display: flex;
@@ -203,7 +203,7 @@ nav img{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color:rgb(32, 72, 32);
     position: relative;
     overflow: hidden;
 }
@@ -277,7 +277,7 @@ nav img{
 #page5{
     width: 100%;
     height: 70vh;
-    color: #fff;
+    color: rgb(32, 72, 32);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -293,7 +293,7 @@ nav img{
 }
 #page5 h2 span{
     display: inline-block;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid rgb(32, 72, 32);
     line-height: 3.5vw;
 }
 
@@ -301,7 +301,7 @@ nav img{
 #page6{
     width: 100vw;
     height: max-content;
-    color: #fff;
+    color: rgb(32, 72, 32);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -370,7 +370,7 @@ nav img{
     justify-content: space-between;
     flex-direction: column;
     /* background:rgb(61, 60, 60); */
-    color: #fff;
+    color: rgb(32, 72, 32);
     padding: 9vw;
     padding-left: 10vw;
     gap: 2vw;
@@ -391,7 +391,7 @@ nav img{
 }
 #page7 h1 span:hover{
     display: inline-block;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid rgb(32, 72, 32);
     line-height: 7.4vw;
 }
 
@@ -502,7 +502,7 @@ nav img{
     width: 100%;
     height:140vh;
     padding: 5vw 6vw;
-   color: #fff;
+   color: rgb(32, 72, 32);
    padding-left: 42vw;
    gap: 13vw;
    display: flex;
@@ -571,7 +571,7 @@ nav img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
+    color: rgb(32, 72, 32);
     padding: 4vw 4vw;
 }
 #page9 img{
@@ -583,9 +583,9 @@ nav img{
     padding: 1.2vw 2vw;
     margin-top: 2vw;
     border-radius: 50px;
-    border: 1px solid #fff;
+    border: 1px solid rgb(32, 72, 32);
     background: transparent;
-    color: #fff;
+    color: rgb(32, 72, 32);
     font-size: 1vw;
 }
 #page9 h3{
@@ -598,7 +598,7 @@ nav img{
 #page10{
     width: 100%;
     height: 90vh;
-    color:#fff;
+    color:rgb(32, 72, 32);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -618,7 +618,7 @@ nav img{
     font-weight: 100;
 }
 #page10 #one h1 span{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(32, 72, 32);
     transition: all ease-in-out 0.5s;
 }
 #page10 #one h1 span:hover{
@@ -655,7 +655,7 @@ nav img{
     font-size: 1.3vw;
 }
 #page10 #three span{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(32, 72, 32);
     transition: all ease-in-out 0.5s;
 }
 #page10 #three span:hover{
@@ -699,7 +699,7 @@ nav img{
         width: 100vw;
         height: 100vh;
         background: #0A0A0A;
-        color: #fff;
+        color: rgb(32, 72, 32);
         position: relative;
         display: flex;
         align-items: center;
@@ -767,8 +767,9 @@ nav img{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
+        color: rgb(32, 72, 32);
         position: relative;
+        object-fit: contain;
     }
     #page4 h2{
         font-size: 20vw;
@@ -777,36 +778,44 @@ nav img{
     #page4 img{
         width: 30vw;
         height: 28vw;
+        object-fit: contain;
     }
 
     #page4 #img1{
         top: 10%;
+        object-fit: contain;
     }
     #page4 #img2{
         top: 20%;
         left:20%;
+        object-fit: contain;
     }
     #page4 #img4{
         top: 30%;
         left:55%;
+        object-fit: contain;
     }
     
     #page4 #img5{
         top: 42%;
         right:-5%;
+        object-fit: contain;
     }
     #page4 #img7{
         top: 62%;
         left:-2%;
+        object-fit: contain;
     }
     
     #page4 #img8{
         top: 74%;
         right:40%;
+        object-fit: contain;
     }
     #page4 #img9{
         top: 55%;
         right:10%;
+        object-fit: contain;
     }
     #overlay{
         width: 100%;
@@ -908,5 +917,6 @@ nav img{
         align-items: center;
         justify-content: center;
         position: relative;
+        background-color: rgb(32, 72, 32);
     }
 }
